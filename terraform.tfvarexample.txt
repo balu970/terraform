@@ -1,0 +1,9 @@
+key_name = Generate the ssh key and paste here
+
+vpc_cidr =  VPC Cidr blocks should be given
+
+sub1_cidr = Subnet cidr block should be given
+sub2_cidr = subnet cidr block should be given (Donot overlap existing subnets cidrs)
+route_cidr = this is for adding extra route through internet gateway. give the cidr
+prof_name = Your profile name should be given
+region_name  = Your region should be given
