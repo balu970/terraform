@@ -4,9 +4,9 @@ resource "aws_cloudwatch_metric_alarm" "foobar" {
   evaluation_periods        = "2"
   metric_name               = "CPUUtilization"
   namespace                 = "AWS/EC2"
-  period                    = "900"
+  period                    = "900" # this is in seconds#
   statistic                 = "Average"
-  threshold                 = "80"
+  threshold                 = "80"  # this is percentage#
   alarm_description         = "This metric monitors ec2 cpu utilization"
 
 
